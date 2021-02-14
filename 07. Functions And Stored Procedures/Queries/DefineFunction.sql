@@ -1,0 +1,18 @@
+CREATE FUNCTION ufn_IsWordComprised (@SetOfLetters VARCHAR(MAX), @Word VARCHAR(MAX))
+	RETURNS BIT
+AS
+BEGIN
+	DECLARE @I SMALLINT = LEN(@Word)
+
+	WHILE (@I > 0)
+	BEGIN
+		IF (CHARINDEX(SUBSTRING(@Word, @I, 1), @SetOfLetters) = 0)
+		BEGIN 
+			RETURN 0
+		END
+
+		SET @I -= 1
+	END
+
+	RETURN 1
+END
