@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="27June2020">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(localdb)\MSSQLLocalDB:HOME-1\NeverBackDown">
+          <Created>2021-02-13T14:10:41.199956+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(localdb)\MSSQLLocalDB</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AvailableMechanics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AvailableMechanics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CostOfOrder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CostOfOrder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CurrentClients.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CurrentClients.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DDL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DDL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MechanicAssignments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MechanicAssignments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MechanicPerformance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MechanicPerformance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MissingParts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MissingParts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PastExpenses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PastExpenses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PlaceOrder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PlaceOrder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Update.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
