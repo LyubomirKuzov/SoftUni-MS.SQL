@@ -1,5 +1,5 @@
 CREATE TRIGGER tr_DeleteProducts
-ON Products INSEAD OF DELETE
+ON Products INSTEAD OF DELETE
 AS
 BEGIN
 	DECLARE @deletedProducts INT = (SELECT p.Id FROM Products AS p 
